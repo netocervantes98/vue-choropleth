@@ -24,7 +24,7 @@ export default {
       position: position
     })
     this.mapObject.onAdd = function(map) {
-      this._div = L.DomUtil.create("div", "info") // create a div with a class "info"
+      this._div = L.DomUtil.create("div", "kinfo") // create a div with a class "info"
       this.update({ name: "", value: 0, unit, placeholder, title })
       return this._div
     }
